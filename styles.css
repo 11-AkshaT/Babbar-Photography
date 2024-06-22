@@ -288,6 +288,13 @@ h2 {
     }
 }
 
+@media (min-width: 768px) {
+    .carousel-item img {
+        height: 70vh; /* Adjust the height as needed */
+        object-fit: contain; /* Ensures the entire image is visible */
+    }
+}
+
 
 /* Styles for the Our Work page */
 .work-grid {
